@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-piwik-proxy",
+  "version": "0.1.0",
+  "description": "Nodejs proxy to hide piwik URL",
+  "author": "mutil",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mutil/nodejs-piwik-proxy.git"
+  },
+  "keywords": [
+    "nodejs",
+    "piwik",
+    "proxy"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coverage": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "request": "^2.40.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "nock": "^0.42.1",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0",
+    "istanbul": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+  "piwikUrl": "http://your-piwik-domain.example.org/piwik/",
+  "tokenAuth": "xyz",
+  "options": {
+    "auth": { "user": "", "password": "" },
+    "rejectUnauthorized": "false",
+    "headers": {}
+  }
+}
